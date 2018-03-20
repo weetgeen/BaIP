@@ -1,9 +1,9 @@
 #include <Arduino.h>
 #include <Wire.h>
-#include <Sodaq_nbIOT.h>
+#include "Sodaq_nbIOT.h"
 #include <Sodaq_HTS221.h>
 #include <Sodaq_LPS22HB.h>
-#include <Sodaq_UBlox_GPS.h>
+#include "Sodaq_UBlox_GPS.h"
 #if defined(ARDUINO_AVR_UNO)
 #include <SoftwareSerial.h> // Uno
 #endif
